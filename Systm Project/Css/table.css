@@ -1,0 +1,21 @@
+.my-table {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .my-table th,
+  .my-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .my-table th {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .my-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  

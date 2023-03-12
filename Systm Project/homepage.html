@@ -7,7 +7,7 @@
     <title>Homepage</title>
 </head>
 <body>
-    <form>
+    <form action="addData.php" method="post">
         <label for="Region">region:</label><br>
         <input type="radio" id="Nairobi" name="Region" value="Nairobi">
         <label for="Nairobi">Nairobi</label><br>
@@ -32,7 +32,7 @@
     <label for="Immigrants">No of Immigrants: </label>
     &nbsp; &nbsp; <input type="number" id="Immigrants" name="migrate"><br>
     <label for="Fam">Family breakdown rate:</label>
-    <input type="range" id="Fam" name="Famine causal" min="0" max="100"><br>
+    <input type="range" id="Fam" name="Faminecausal" min="0" max="100"><br>
     <label for="edu">No of scholars:</label>
     &nbsp; &nbsp; &nbsp; &nbsp; <input type="number" id="edu" name="Education"><br>
     <label for="Drug usage">Drug usage:</label>
@@ -51,7 +51,7 @@
         <input type="checkbox" id="elders" name="83-100+" value="elderly">
         <label for="elderly">83-100+</label><br>
     <label for="males percentage">Percentage of males:</label>
-    <input type="range" id="males percentage" name="males percentage" min="0" max="100"><br>
+    <input type="range" id="males percentage" name="malespercentage" min="0" max="100"><br>
     <label for="race">Race:</label><br>
         <input type="checkbox" id="christian" name="religion" value="christian">
         <label for="christian">Christian</label>
@@ -62,9 +62,9 @@
         <input type="checkbox" id="pagan" name="religion" value="pagan">
         <label for="pagan">Pagans</label><br>
     <label for="politics">Political Risk Index:</label>
-    <input type="range" id="politics" name="Political Risk Index" min="0" max="10"><br>
+    <input type="range" id="politics" name="PoliticalRiskIndex" min="0" max="10"><br>
     <label for="policies">No of security policies:</label>
-    <input type="number" id="policies" name="security policies"><br>
+    <input type="number" id="policies" name="securitypolicies"><br>
     <input type ="submit" value="submit">
   </form>
 </body>
